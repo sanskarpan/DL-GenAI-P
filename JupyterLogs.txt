@@ -1,0 +1,718 @@
+Cursor (1.105.1, undefined, desktop)
+Jupyter Extension Version: 2025.4.1.
+Python Extension Version: 2025.6.1.
+Pylance Extension not installed.
+Platform: darwin (arm64).
+Home = /Users/sanskar
+Temp Storage folder ~/Library/Application Support/Cursor/User/globalStorage/ms-toolsai.jupyter/version-2025.4.1
+Workspace folder ~/dev/DL-GenAI-P
+15:16:17.951 [info] Starting Kernel (Python Path: ~/dev/DL-GenAI-P/venv/bin/python, Venv, 3.12.12) for '~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb' (disableUI=true)
+15:16:18.026 [error] Failure in registering port attributes [Error: Extension 'ms-toolsai.jupyter' CANNOT use API proposal: portsAttributes.
+Its package.json#enabledApiProposals-property declares: notebookDeprecated, notebookMessaging, notebookMime, notebookCellExecutionState, quickPickSortByLabel, notebookKernelSource, interactiveWindow, notebookControllerAffinityHidden, contribNotebookStaticPreloads, quickPickItemTooltip, notebookExecution, notebookCellExecution, notebookVariableProvider, notebookReplDocument but NOT portsAttributes.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-toolsai.jupyter. Note that the cursor and control proposals are only available for built-in extensions
+	at U (file:///Applications/Cursor.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:133:20176)
+	at Object.registerPortAttributesProvider (file:///Applications/Cursor.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:203:164001)
+	at ZD (~/.cursor/extensions/ms-toolsai.jupyter-2025.4.1/dist/extension.node.js:279:2688)
+	at Us.launch (~/.cursor/extensions/ms-toolsai.jupyter-2025.4.1/dist/extension.node.js:300:7467)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async dT.start (~/.cursor/extensions/ms-toolsai.jupyter-2025.4.1/dist/extension.node.js:301:11153)
+	at async pT.startKernel (~/.cursor/extensions/ms-toolsai.jupyter-2025.4.1/dist/extension.node.js:301:21741)
+	at async $y.create (~/.cursor/extensions/ms-toolsai.jupyter-2025.4.1/dist/extension.node.js:301:24048)
+	at async T_.createJupyterSession (~/.cursor/extensions/ms-toolsai.jupyter-2025.4.1/dist/extension.node.js:282:37194)
+	at async T_.startJupyterSession (~/.cursor/extensions/ms-toolsai.jupyter-2025.4.1/dist/extension.node.js:282:34846)
+	at async T_.start (~/.cursor/extensions/ms-toolsai.jupyter-2025.4.1/dist/extension.node.js:282:30892)
+	at async n.wrapKernelMethodImpl (~/.cursor/extensions/ms-toolsai.jupyter-2025.4.1/dist/extension.node.js:301:84016)]
+15:16:18.261 [info] Process Execution: ~/dev/DL-GenAI-P/venv/bin/python -m pip list
+15:16:18.262 [info] Process Execution: ~/dev/DL-GenAI-P/venv/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+15:16:18.263 [info] Process Execution: ~/dev/DL-GenAI-P/venv/bin/python -m ipykernel_launcher --f=~/Library/Jupyter/runtime/kernel-v336c9057650797018c40554758f51c0235343fc04.json
+    > cwd: ~/dev/DL-GenAI-P/notebooks
+15:16:23.382 [info] Kernel successfully started
+15:16:23.403 [info] Process Execution: ~/dev/DL-GenAI-P/venv/bin/python ~/.cursor/extensions/ms-toolsai.jupyter-2025.4.1/pythonFiles/printJupyterDataDir.py
+15:16:24.410 [error] Widget Error: Failed to access CDN https://unpkg.com/ after 0 attempt(s), TypeError: Failed to fetch
+16:22:40.049 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+16:22:40.079 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+16:22:40.090 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+16:22:40.093 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+16:22:40.106 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+16:22:40.107 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+16:22:40.108 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+16:22:40.108 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+16:22:40.117 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+16:22:40.118 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+16:22:40.119 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+16:22:40.126 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+16:22:40.127 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+16:22:40.128 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+16:22:40.137 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+16:22:40.138 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+16:22:40.139 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+16:22:40.145 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+16:22:40.145 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+16:22:40.146 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+16:22:40.148 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+16:22:40.156 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+16:22:40.156 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+16:22:40.166 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+16:22:40.167 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+16:22:40.167 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+16:22:40.518 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+16:25:22.505 [info] Interrupt kernel execution
+16:25:22.535 [info] Interrupt requested ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+16:25:22.549 [info] Interrupt kernel execution
+16:25:22.566 [info] Interrupting kernel: python31212jvsc74a57bd040334e451451ba655537a26727dec62beeeebb16184526df2f2338ef4e0e4754
+16:25:22.580 [info] Interrupting kernel via SIGINT
+16:25:33.665 [info] Interrupt requested & sent for ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb in notebookEditor.
+16:25:41.086 [info] Restart requested ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+16:25:43.471 [error] Failure in registering port attributes [Error: Extension 'ms-toolsai.jupyter' CANNOT use API proposal: portsAttributes.
+Its package.json#enabledApiProposals-property declares: notebookDeprecated, notebookMessaging, notebookMime, notebookCellExecutionState, quickPickSortByLabel, notebookKernelSource, interactiveWindow, notebookControllerAffinityHidden, contribNotebookStaticPreloads, quickPickItemTooltip, notebookExecution, notebookCellExecution, notebookVariableProvider, notebookReplDocument but NOT portsAttributes.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-toolsai.jupyter. Note that the cursor and control proposals are only available for built-in extensions
+	at U (file:///Applications/Cursor.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:133:20176)
+	at Object.registerPortAttributesProvider (file:///Applications/Cursor.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:203:164001)
+	at ZD (~/.cursor/extensions/ms-toolsai.jupyter-2025.4.1/dist/extension.node.js:279:2688)
+	at Us.launch (~/.cursor/extensions/ms-toolsai.jupyter-2025.4.1/dist/extension.node.js:300:7467)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async dT.start (~/.cursor/extensions/ms-toolsai.jupyter-2025.4.1/dist/extension.node.js:301:11153)
+	at async dT.restart (~/.cursor/extensions/ms-toolsai.jupyter-2025.4.1/dist/extension.node.js:301:10867)
+	at async iT.restart (~/.cursor/extensions/ms-toolsai.jupyter-2025.4.1/dist/extension.node.js:279:30732)]
+16:25:45.498 [info] Process Execution: ~/dev/DL-GenAI-P/venv/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+16:25:45.499 [info] Process Execution: ~/dev/DL-GenAI-P/venv/bin/python -m ipykernel_launcher --f=~/Library/Jupyter/runtime/kernel-v3b01485423f202d64d4dba91332ea30047da93f5e.json
+    > cwd: ~/dev/DL-GenAI-P/notebooks
+16:25:53.648 [info] Restarted 8b304f67-d918-464d-974d-51bc2613145c
+16:28:08.286 [warn] Cell completed with errors [lu [Error]: No module named 'src'
+	at n.execute (~/.cursor/extensions/ms-toolsai.jupyter-2025.4.1/dist/extension.node.js:294:4958)] {
+  ename: 'ModuleNotFoundError',
+  evalue: "No module named 'src'",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mModuleNotFoundError\x1B[39m                       Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[1]\x1B[39m\x1B[32m, line 6\x1B[39m\n' +
+      '\x1B[32m      3\x1B[39m \x1B[38;5;28;01mimport\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mtorch\x1B[39;00m\x1B[34;01m.\x1B[39;00m\x1B[34;01mnn\x1B[39;00m\x1B[34;01m.\x1B[39;00m\x1B[34;01mfunctional\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mas\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mF\x1B[39;00m\n' +
+      '\x1B[32m      4\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mtorch\x1B[39;00m\x1B[34;01m.\x1B[39;00m\x1B[34;01mutils\x1B[39;00m\x1B[34;01m.\x1B[39;00m\x1B[34;01mdata\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m DataLoader\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m6\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01msrc\x1B[39;00m\x1B[34;01m.\x1B[39;00m\x1B[34;01mdataset\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m SyntheticMashupDataset, TestMashupDataset\n' +
+      '\x1B[32m      7\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01msrc\x1B[39;00m\x1B[34;01m.\x1B[39;00m\x1B[34;01mmodels\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m get_model, count_parameters\n' +
+      '\x1B[32m      8\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01msrc\x1B[39;00m\x1B[34;01m.\x1B[39;00m\x1B[34;01mtrain\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m train, load_best_model, print_classification_report\n',
+    "\x1B[31mModuleNotFoundError\x1B[39m: No module named 'src'"
+  ]
+}
+16:28:58.561 [warn] Cell completed with errors [lu [Error]: No module named 'src'
+	at n.execute (~/.cursor/extensions/ms-toolsai.jupyter-2025.4.1/dist/extension.node.js:294:4958)] {
+  ename: 'ModuleNotFoundError',
+  evalue: "No module named 'src'",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mModuleNotFoundError\x1B[39m                       Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[2]\x1B[39m\x1B[32m, line 1\x1B[39m\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m1\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01msrc\x1B[39;00m\x1B[34;01m.\x1B[39;00m\x1B[34;01maugment\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m _build_esc50_audio_cache\n' +
+      '\x1B[32m      2\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01msrc\x1B[39;00m\x1B[34;01m.\x1B[39;00m\x1B[34;01mfeatures\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m melspec_for_cnn\n' +
+      '\x1B[32m      3\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01msrc\x1B[39;00m\x1B[34;01m.\x1B[39;00m\x1B[34;01mdataset\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m PrecomputedDataset\n',
+    "\x1B[31mModuleNotFoundError\x1B[39m: No module named 'src'"
+  ]
+}
+16:50:34.982 [warn] Cell completed with errors [lu [Error]: Number of classes, 18, does not match size of target_names, 10. Try specifying the labels parameter
+	at n.execute (~/.cursor/extensions/ms-toolsai.jupyter-2025.4.1/dist/extension.node.js:294:4958)] {
+  ename: 'ValueError',
+  evalue: 'Number of classes, 18, does not match size of target_names, 10. Try specifying the labels parameter',
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mValueError\x1B[39m                                Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[30]\x1B[39m\x1B[32m, line 9\x1B[39m\n' +
+      '\x1B[32m      6\x1B[39m criterion = LabelSmoothingCrossEntropy(\x1B[32m0.1\x1B[39m)\n' +
+      '\x1B[32m      8\x1B[39m _, _, y_true, y_pred = evaluate(best_model, val_loader, criterion, device)\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m9\x1B[39m \x1B[43mprint_classification_report\x1B[49m\x1B[43m(\x1B[49m\x1B[43my_true\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43my_pred\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m     11\x1B[39m \x1B[38;5;66;03m# Confusion matrix\x1B[39;00m\n' +
+      '\x1B[32m     12\x1B[39m cm = confusion_matrix(y_true, y_pred)\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/dev/DL-GenAI-P/notebooks/../src/train.py:237\x1B[39m, in \x1B[36mprint_classification_report\x1B[39m\x1B[34m(y_true, y_pred)\x1B[39m\n' +
+      '\x1B[32m    235\x1B[39m \x1B[38;5;250m\x1B[39m\x1B[33;03m"""Print per-class F1 report aligned with competition metric."""\x1B[39;00m\n' +
+      '\x1B[32m    236\x1B[39m \x1B[38;5;28mprint\x1B[39m(\x1B[33m"\x1B[39m\x1B[38;5;130;01m\\n\x1B[39;00m\x1B[33mPer-class Classification Report:\x1B[39m\x1B[33m"\x1B[39m)\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m237\x1B[39m \x1B[38;5;28mprint\x1B[39m(\x1B[43mclassification_report\x1B[49m\x1B[43m(\x1B[49m\x1B[43my_true\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43my_pred\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m    238\x1B[39m \x1B[43m                            \x1B[49m\x1B[43mtarget_names\x1B[49m\x1B[43m=\x1B[49m\x1B[43mconfig\x1B[49m\x1B[43m.\x1B[49m\x1B[43mGENRES\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m    239\x1B[39m \x1B[43m                            \x1B[49m\x1B[43mdigits\x1B[49m\x1B[43m=\x1B[49m\x1B[32;43m4\x1B[39;49m\x1B[43m)\x1B[49m)\n' +
+      '\x1B[32m    240\x1B[39m \x1B[38;5;28mprint\x1B[39m(\x1B[33mf\x1B[39m\x1B[33m"\x1B[39m\x1B[33mMacro F1: \x1B[39m\x1B[38;5;132;01m{\x1B[39;00mmacro_f1(y_true,\x1B[38;5;250m \x1B[39my_pred)\x1B[38;5;132;01m:\x1B[39;00m\x1B[33m.4f\x1B[39m\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m"\x1B[39m)\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/dev/DL-GenAI-P/venv/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:218\x1B[39m, in \x1B[36mvalidate_params.<locals>.decorator.<locals>.wrapper\x1B[39m\x1B[34m(*args, **kwargs)\x1B[39m\n' +
+      '\x1B[32m    212\x1B[39m \x1B[38;5;28;01mtry\x1B[39;00m:\n' +
+      '\x1B[32m    213\x1B[39m     \x1B[38;5;28;01mwith\x1B[39;00m config_context(\n' +
+      '\x1B[32m    214\x1B[39m         skip_parameter_validation=(\n' +
+      '\x1B[32m    215\x1B[39m             prefer_skip_nested_validation \x1B[38;5;129;01mor\x1B[39;00m global_skip_validation\n' +
+      '\x1B[32m    216\x1B[39m         )\n' +
+      '\x1B[32m    217\x1B[39m     ):\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m218\x1B[39m         \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[43mfunc\x1B[49m\x1B[43m(\x1B[49m\x1B[43m*\x1B[49m\x1B[43margs\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43m*\x1B[49m\x1B[43m*\x1B[49m\x1B[43mkwargs\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m    219\x1B[39m \x1B[38;5;28;01mexcept\x1B[39;00m InvalidParameterError \x1B[38;5;28;01mas\x1B[39;00m e:\n' +
+      '\x1B[32m    220\x1B[39m     \x1B[38;5;66;03m# When the function is just a wrapper around an estimator, we allow\x1B[39;00m\n' +
+      '\x1B[32m    221\x1B[39m     \x1B[38;5;66;03m# the function to delegate validation to the estimator, but we replace\x1B[39;00m\n' +
+      '\x1B[32m    222\x1B[39m     \x1B[38;5;66;03m# the name of the estimator by the name of the function in the error\x1B[39;00m\n' +
+      '\x1B[32m    223\x1B[39m     \x1B[38;5;66;03m# message to avoid confusion.\x1B[39;00m\n' +
+      '\x1B[32m    224\x1B[39m     msg = re.sub(\n' +
+      '\x1B[32m    225\x1B[39m         \x1B[33mr\x1B[39m\x1B[33m"\x1B[39m\x1B[33mparameter of \x1B[39m\x1B[33m\\\x1B[39m\x1B[33mw+ must be\x1B[39m\x1B[33m"\x1B[39m,\n' +
+      '\x1B[32m    226\x1B[39m         \x1B[33mf\x1B[39m\x1B[33m"\x1B[39m\x1B[33mparameter of \x1B[39m\x1B[38;5;132;01m{\x1B[39;00mfunc.\x1B[34m__qualname__\x1B[39m\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m must be\x1B[39m\x1B[33m"\x1B[39m,\n' +
+      '\x1B[32m    227\x1B[39m         \x1B[38;5;28mstr\x1B[39m(e),\n' +
+      '\x1B[32m    228\x1B[39m     )\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/dev/DL-GenAI-P/venv/lib/python3.12/site-packages/sklearn/metrics/_classification.py:3097\x1B[39m, in \x1B[36mclassification_report\x1B[39m\x1B[34m(y_true, y_pred, labels, target_names, sample_weight, digits, output_dict, zero_division)\x1B[39m\n' +
+      '\x1B[32m   3091\x1B[39m         warnings.warn(\n' +
+      '\x1B[32m   3092\x1B[39m             \x1B[33m"\x1B[39m\x1B[33mlabels size, \x1B[39m\x1B[38;5;132;01m{0}\x1B[39;00m\x1B[33m, does not match size of target_names, \x1B[39m\x1B[38;5;132;01m{1}\x1B[39;00m\x1B[33m"\x1B[39m.format(\n' +
+      '\x1B[32m   3093\x1B[39m                 \x1B[38;5;28mlen\x1B[39m(labels), \x1B[38;5;28mlen\x1B[39m(target_names)\n' +
+      '\x1B[32m   3094\x1B[39m             )\n' +
+      '\x1B[32m   3095\x1B[39m         )\n' +
+      '\x1B[32m   3096\x1B[39m     \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m3097\x1B[39m         \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mValueError\x1B[39;00m(\n' +
+      '\x1B[32m   3098\x1B[39m             \x1B[33m"\x1B[39m\x1B[33mNumber of classes, \x1B[39m\x1B[38;5;132;01m{0}\x1B[39;00m\x1B[33m, does not match size of \x1B[39m\x1B[33m"\x1B[39m\n' +
+      '\x1B[32m   3099\x1B[39m             \x1B[33m"\x1B[39m\x1B[33mtarget_names, \x1B[39m\x1B[38;5;132;01m{1}\x1B[39;00m\x1B[33m. Try specifying the labels \x1B[39m\x1B[33m"\x1B[39m\n' +
+      '\x1B[32m   3100\x1B[39m             \x1B[33m"\x1B[39m\x1B[33mparameter\x1B[39m\x1B[33m"\x1B[39m.format(\x1B[38;5;28mlen\x1B[39m(labels), \x1B[38;5;28mlen\x1B[39m(target_names))\n' +
+      '\x1B[32m   3101\x1B[39m         )\n' +
+      '\x1B[32m   3102\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m target_names \x1B[38;5;129;01mis\x1B[39;00m \x1B[38;5;28;01mNone\x1B[39;00m:\n' +
+      '\x1B[32m   3103\x1B[39m     target_names = [\x1B[33m"\x1B[39m\x1B[38;5;132;01m%s\x1B[39;00m\x1B[33m"\x1B[39m % l \x1B[38;5;28;01mfor\x1B[39;00m l \x1B[38;5;129;01min\x1B[39;00m labels]\n',
+    '\x1B[31mValueError\x1B[39m: Number of classes, 18, does not match size of target_names, 10. Try specifying the labels parameter'
+  ]
+}
+16:54:52.802 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+16:54:52.805 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+16:54:52.806 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+16:54:52.806 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+16:54:52.807 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+16:54:52.807 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+16:54:52.807 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+16:54:52.807 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+16:54:52.807 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+16:54:52.808 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+16:54:52.811 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+16:54:52.811 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+16:54:52.811 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+16:54:52.811 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+16:54:52.811 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+16:54:52.816 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+16:54:52.817 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+16:54:52.817 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+16:54:52.817 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+16:54:52.818 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+16:54:52.818 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+16:54:52.819 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+16:54:52.819 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+16:54:53.165 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+16:54:53.239 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+17:15:02.601 [warn] Cell completed with errors [lu [Error]: PrecomputedDataset.__init__() got an unexpected keyword argument 'target_size'
+	at n.execute (~/.cursor/extensions/ms-toolsai.jupyter-2025.4.1/dist/extension.node.js:294:4958)] {
+  ename: 'TypeError',
+  evalue: "PrecomputedDataset.__init__() got an unexpected keyword argument 'target_size'",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mTypeError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[54]\x1B[39m\x1B[32m, line 8\x1B[39m\n' +
+      '\x1B[32m      4\x1B[39m NUM_WORKERS  = \x1B[32m0\x1B[39m     \x1B[38;5;66;03m# 0 for macOS stability\x1B[39;00m\n' +
+      '\x1B[32m      5\x1B[39m TARGET_SIZE  = (\x1B[32m64\x1B[39m, \x1B[32m64\x1B[39m)  \x1B[38;5;66;03m# resize each spec; set None to skip resize\x1B[39;00m\n' +
+      '\x1B[32m      7\x1B[39m train_loader = DataLoader(\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m8\x1B[39m     \x1B[43mPrecomputedDataset\x1B[49m\x1B[43m(\x1B[49m\x1B[43mtrain_specs\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mtrain_labels\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m      9\x1B[39m \x1B[43m                       \x1B[49m\x1B[43muse_spec_augment\x1B[49m\x1B[43m=\x1B[49m\x1B[38;5;28;43;01mTrue\x1B[39;49;00m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mtarget_size\x1B[49m\x1B[43m=\x1B[49m\x1B[43mTARGET_SIZE\x1B[49m\x1B[43m)\x1B[49m,\n' +
+      '\x1B[32m     10\x1B[39m     batch_size=BATCH_SIZE, shuffle=\x1B[38;5;28;01mTrue\x1B[39;00m, num_workers=NUM_WORKERS)\n' +
+      '\x1B[32m     12\x1B[39m val_loader = DataLoader(\n' +
+      '\x1B[32m     13\x1B[39m     PrecomputedDataset(val_specs, val_labels,\n' +
+      '\x1B[32m     14\x1B[39m                        use_spec_augment=\x1B[38;5;28;01mFalse\x1B[39;00m, target_size=TARGET_SIZE),\n' +
+      '\x1B[32m     15\x1B[39m     batch_size=BATCH_SIZE, shuffle=\x1B[38;5;28;01mFalse\x1B[39;00m, num_workers=NUM_WORKERS)\n' +
+      '\x1B[32m     17\x1B[39m \x1B[38;5;28mprint\x1B[39m(\x1B[33mf\x1B[39m\x1B[33m"\x1B[39m\x1B[33mTrain: \x1B[39m\x1B[38;5;132;01m{\x1B[39;00m\x1B[38;5;28mlen\x1B[39m(train_loader.dataset)\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m samples, \x1B[39m\x1B[38;5;132;01m{\x1B[39;00m\x1B[38;5;28mlen\x1B[39m(train_loader)\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m batches/epoch\x1B[39m\x1B[33m"\x1B[39m)\n',
+    "\x1B[31mTypeError\x1B[39m: PrecomputedDataset.__init__() got an unexpected keyword argument 'target_size'"
+  ]
+}
+17:39:42.017 [warn] Cell completed with errors [lu [Error]: Number of classes, 45, does not match size of target_names, 10. Try specifying the labels parameter
+	at n.execute (~/.cursor/extensions/ms-toolsai.jupyter-2025.4.1/dist/extension.node.js:294:4958)] {
+  ename: 'ValueError',
+  evalue: 'Number of classes, 45, does not match size of target_names, 10. Try specifying the labels parameter',
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mValueError\x1B[39m                                Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[61]\x1B[39m\x1B[32m, line 9\x1B[39m\n' +
+      '\x1B[32m      6\x1B[39m criterion = LabelSmoothingCrossEntropy(\x1B[32m0.1\x1B[39m)\n' +
+      '\x1B[32m      8\x1B[39m _, _, y_true, y_pred = evaluate(best_model, val_loader, criterion, device)\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m9\x1B[39m \x1B[43mprint_classification_report\x1B[49m\x1B[43m(\x1B[49m\x1B[43my_true\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43my_pred\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m     11\x1B[39m \x1B[38;5;66;03m# Confusion matrix\x1B[39;00m\n' +
+      '\x1B[32m     12\x1B[39m cm = confusion_matrix(y_true, y_pred)\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/dev/DL-GenAI-P/notebooks/../src/train.py:237\x1B[39m, in \x1B[36mprint_classification_report\x1B[39m\x1B[34m(y_true, y_pred)\x1B[39m\n' +
+      '\x1B[32m    235\x1B[39m \x1B[38;5;250m\x1B[39m\x1B[33;03m"""Print per-class F1 report aligned with competition metric."""\x1B[39;00m\n' +
+      '\x1B[32m    236\x1B[39m \x1B[38;5;28mprint\x1B[39m(\x1B[33m"\x1B[39m\x1B[38;5;130;01m\\n\x1B[39;00m\x1B[33mPer-class Classification Report:\x1B[39m\x1B[33m"\x1B[39m)\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m237\x1B[39m \x1B[38;5;28mprint\x1B[39m(\x1B[43mclassification_report\x1B[49m\x1B[43m(\x1B[49m\x1B[43my_true\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43my_pred\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m    238\x1B[39m \x1B[43m                            \x1B[49m\x1B[43mtarget_names\x1B[49m\x1B[43m=\x1B[49m\x1B[43mconfig\x1B[49m\x1B[43m.\x1B[49m\x1B[43mGENRES\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m    239\x1B[39m \x1B[43m                            \x1B[49m\x1B[43mdigits\x1B[49m\x1B[43m=\x1B[49m\x1B[32;43m4\x1B[39;49m\x1B[43m)\x1B[49m)\n' +
+      '\x1B[32m    240\x1B[39m \x1B[38;5;28mprint\x1B[39m(\x1B[33mf\x1B[39m\x1B[33m"\x1B[39m\x1B[33mMacro F1: \x1B[39m\x1B[38;5;132;01m{\x1B[39;00mmacro_f1(y_true,\x1B[38;5;250m \x1B[39my_pred)\x1B[38;5;132;01m:\x1B[39;00m\x1B[33m.4f\x1B[39m\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m"\x1B[39m)\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/dev/DL-GenAI-P/venv/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:218\x1B[39m, in \x1B[36mvalidate_params.<locals>.decorator.<locals>.wrapper\x1B[39m\x1B[34m(*args, **kwargs)\x1B[39m\n' +
+      '\x1B[32m    212\x1B[39m \x1B[38;5;28;01mtry\x1B[39;00m:\n' +
+      '\x1B[32m    213\x1B[39m     \x1B[38;5;28;01mwith\x1B[39;00m config_context(\n' +
+      '\x1B[32m    214\x1B[39m         skip_parameter_validation=(\n' +
+      '\x1B[32m    215\x1B[39m             prefer_skip_nested_validation \x1B[38;5;129;01mor\x1B[39;00m global_skip_validation\n' +
+      '\x1B[32m    216\x1B[39m         )\n' +
+      '\x1B[32m    217\x1B[39m     ):\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m218\x1B[39m         \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[43mfunc\x1B[49m\x1B[43m(\x1B[49m\x1B[43m*\x1B[49m\x1B[43margs\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43m*\x1B[49m\x1B[43m*\x1B[49m\x1B[43mkwargs\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m    219\x1B[39m \x1B[38;5;28;01mexcept\x1B[39;00m InvalidParameterError \x1B[38;5;28;01mas\x1B[39;00m e:\n' +
+      '\x1B[32m    220\x1B[39m     \x1B[38;5;66;03m# When the function is just a wrapper around an estimator, we allow\x1B[39;00m\n' +
+      '\x1B[32m    221\x1B[39m     \x1B[38;5;66;03m# the function to delegate validation to the estimator, but we replace\x1B[39;00m\n' +
+      '\x1B[32m    222\x1B[39m     \x1B[38;5;66;03m# the name of the estimator by the name of the function in the error\x1B[39;00m\n' +
+      '\x1B[32m    223\x1B[39m     \x1B[38;5;66;03m# message to avoid confusion.\x1B[39;00m\n' +
+      '\x1B[32m    224\x1B[39m     msg = re.sub(\n' +
+      '\x1B[32m    225\x1B[39m         \x1B[33mr\x1B[39m\x1B[33m"\x1B[39m\x1B[33mparameter of \x1B[39m\x1B[33m\\\x1B[39m\x1B[33mw+ must be\x1B[39m\x1B[33m"\x1B[39m,\n' +
+      '\x1B[32m    226\x1B[39m         \x1B[33mf\x1B[39m\x1B[33m"\x1B[39m\x1B[33mparameter of \x1B[39m\x1B[38;5;132;01m{\x1B[39;00mfunc.\x1B[34m__qualname__\x1B[39m\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m must be\x1B[39m\x1B[33m"\x1B[39m,\n' +
+      '\x1B[32m    227\x1B[39m         \x1B[38;5;28mstr\x1B[39m(e),\n' +
+      '\x1B[32m    228\x1B[39m     )\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/dev/DL-GenAI-P/venv/lib/python3.12/site-packages/sklearn/metrics/_classification.py:3097\x1B[39m, in \x1B[36mclassification_report\x1B[39m\x1B[34m(y_true, y_pred, labels, target_names, sample_weight, digits, output_dict, zero_division)\x1B[39m\n' +
+      '\x1B[32m   3091\x1B[39m         warnings.warn(\n' +
+      '\x1B[32m   3092\x1B[39m             \x1B[33m"\x1B[39m\x1B[33mlabels size, \x1B[39m\x1B[38;5;132;01m{0}\x1B[39;00m\x1B[33m, does not match size of target_names, \x1B[39m\x1B[38;5;132;01m{1}\x1B[39;00m\x1B[33m"\x1B[39m.format(\n' +
+      '\x1B[32m   3093\x1B[39m                 \x1B[38;5;28mlen\x1B[39m(labels), \x1B[38;5;28mlen\x1B[39m(target_names)\n' +
+      '\x1B[32m   3094\x1B[39m             )\n' +
+      '\x1B[32m   3095\x1B[39m         )\n' +
+      '\x1B[32m   3096\x1B[39m     \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m3097\x1B[39m         \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mValueError\x1B[39;00m(\n' +
+      '\x1B[32m   3098\x1B[39m             \x1B[33m"\x1B[39m\x1B[33mNumber of classes, \x1B[39m\x1B[38;5;132;01m{0}\x1B[39;00m\x1B[33m, does not match size of \x1B[39m\x1B[33m"\x1B[39m\n' +
+      '\x1B[32m   3099\x1B[39m             \x1B[33m"\x1B[39m\x1B[33mtarget_names, \x1B[39m\x1B[38;5;132;01m{1}\x1B[39;00m\x1B[33m. Try specifying the labels \x1B[39m\x1B[33m"\x1B[39m\n' +
+      '\x1B[32m   3100\x1B[39m             \x1B[33m"\x1B[39m\x1B[33mparameter\x1B[39m\x1B[33m"\x1B[39m.format(\x1B[38;5;28mlen\x1B[39m(labels), \x1B[38;5;28mlen\x1B[39m(target_names))\n' +
+      '\x1B[32m   3101\x1B[39m         )\n' +
+      '\x1B[32m   3102\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m target_names \x1B[38;5;129;01mis\x1B[39;00m \x1B[38;5;28;01mNone\x1B[39;00m:\n' +
+      '\x1B[32m   3103\x1B[39m     target_names = [\x1B[33m"\x1B[39m\x1B[38;5;132;01m%s\x1B[39;00m\x1B[33m"\x1B[39m % l \x1B[38;5;28;01mfor\x1B[39;00m l \x1B[38;5;129;01min\x1B[39;00m labels]\n',
+    '\x1B[31mValueError\x1B[39m: Number of classes, 45, does not match size of target_names, 10. Try specifying the labels parameter'
+  ]
+}
+01:26:45.285 [warn] Cell completed with errors [lu [Error]: The model corresponding to this feature extractor: Wav2Vec2FeatureExtractor {
+  "do_normalize": true,
+  "feature_extractor_type": "Wav2Vec2FeatureExtractor",
+  "feature_size": 1,
+  "padding_side": "right",
+  "padding_value": 0.0,
+  "return_attention_mask": false,
+  "sampling_rate": 16000
+}
+ was trained using a sampling rate of 16000. Please make sure that the provided `raw_speech` input was sampled with 16000 and not 22050.
+	at n.execute (~/.cursor/extensions/ms-toolsai.jupyter-2025.4.1/dist/extension.node.js:294:4958)] {
+  ename: 'ValueError',
+  evalue: 'The model corresponding to this feature extractor: Wav2Vec2FeatureExtractor {\n' +
+    '  "do_normalize": true,\n' +
+    '  "feature_extractor_type": "Wav2Vec2FeatureExtractor",\n' +
+    '  "feature_size": 1,\n' +
+    '  "padding_side": "right",\n' +
+    '  "padding_value": 0.0,\n' +
+    '  "return_attention_mask": false,\n' +
+    '  "sampling_rate": 16000\n' +
+    '}\n' +
+    ' was trained using a sampling rate of 16000. Please make sure that the provided `raw_speech` input was sampled with 16000 and not 22050.',
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mValueError\x1B[39m                                Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[69]\x1B[39m\x1B[32m, line 4\x1B[39m\n' +
+      '\x1B[32m      1\x1B[39m \x1B[38;5;66;03m# Train Wav2Vec2\x1B[39;00m\n' +
+      "\x1B[32m      2\x1B[39m w2v_save_path = config.MODELS_DIR / \x1B[33m'\x1B[39m\x1B[33mwav2vec2_best.pt\x1B[39m\x1B[33m'\x1B[39m\n" +
+      '\x1B[32m----> \x1B[39m\x1B[32m4\x1B[39m w2v_history = \x1B[43mtrain\x1B[49m\x1B[43m(\x1B[49m\n' +
+      '\x1B[32m      5\x1B[39m \x1B[43m    \x1B[49m\x1B[43mmodel\x1B[49m\x1B[43m=\x1B[49m\x1B[43mw2v_model\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m      6\x1B[39m \x1B[43m    \x1B[49m\x1B[43mtrain_loader\x1B[49m\x1B[43m=\x1B[49m\x1B[43mw2v_train_loader\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m      7\x1B[39m \x1B[43m    \x1B[49m\x1B[43mval_loader\x1B[49m\x1B[43m=\x1B[49m\x1B[43mw2v_val_loader\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m      8\x1B[39m \x1B[43m    \x1B[49m\x1B[43msave_path\x1B[49m\x1B[43m=\x1B[49m\x1B[43mw2v_save_path\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m      9\x1B[39m \x1B[43m    \x1B[49m\x1B[43mnum_epochs\x1B[49m\x1B[43m=\x1B[49m\x1B[32;43m20\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m      \x1B[49m\x1B[38;5;66;43;03m# fewer epochs for transformer fine-tuning\x1B[39;49;00m\n' +
+      '\x1B[32m     10\x1B[39m \x1B[43m    \x1B[49m\x1B[43mlr\x1B[49m\x1B[43m=\x1B[49m\x1B[32;43m1e-4\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m            \x1B[49m\x1B[38;5;66;43;03m# lower LR for fine-tuning\x1B[39;49;00m\n' +
+      '\x1B[32m     11\x1B[39m \x1B[43m    \x1B[49m\x1B[43mpatience\x1B[49m\x1B[43m=\x1B[49m\x1B[32;43m5\x1B[39;49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m     12\x1B[39m \x1B[43m    \x1B[49m\x1B[43mdevice\x1B[49m\x1B[43m=\x1B[49m\x1B[43mdevice\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m     13\x1B[39m \x1B[43m    \x1B[49m\x1B[43mlabel_smoothing\x1B[49m\x1B[43m=\x1B[49m\x1B[32;43m0.05\x1B[39;49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m     14\x1B[39m \x1B[43m    \x1B[49m\x1B[43mverbose\x1B[49m\x1B[43m=\x1B[49m\x1B[38;5;28;43;01mTrue\x1B[39;49;00m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m     15\x1B[39m \x1B[43m)\x1B[49m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/dev/DL-GenAI-P/notebooks/../src/train.py:169\x1B[39m, in \x1B[36mtrain\x1B[39m\x1B[34m(model, train_loader, val_loader, save_path, num_epochs, lr, min_lr, weight_decay, patience, device, label_smoothing, verbose)\x1B[39m\n' +
+      '\x1B[32m    166\x1B[39m t0 = time.time()\n' +
+      '\x1B[32m    168\x1B[39m \x1B[38;5;66;03m# Train\x1B[39;00m\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m169\x1B[39m train_loss, train_f1 = \x1B[43mtrain_one_epoch\x1B[49m\x1B[43m(\x1B[49m\n' +
+      '\x1B[32m    170\x1B[39m \x1B[43m    \x1B[49m\x1B[43mmodel\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mtrain_loader\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43moptimizer\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mcriterion\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mdevice\x1B[49m\n' +
+      '\x1B[32m    171\x1B[39m \x1B[43m\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m    173\x1B[39m \x1B[38;5;66;03m# Validate\x1B[39;00m\n' +
+      '\x1B[32m    174\x1B[39m val_loss, val_f1, _, _ = evaluate(\n' +
+      '\x1B[32m    175\x1B[39m     model, val_loader, criterion, device\n' +
+      '\x1B[32m    176\x1B[39m )\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/dev/DL-GenAI-P/notebooks/../src/train.py:65\x1B[39m, in \x1B[36mtrain_one_epoch\x1B[39m\x1B[34m(model, loader, optimizer, criterion, device, grad_clip)\x1B[39m\n' +
+      '\x1B[32m     62\x1B[39m total_loss = \x1B[32m0.0\x1B[39m\n' +
+      '\x1B[32m     63\x1B[39m all_preds, all_labels = [], []\n' +
+      '\x1B[32m---> \x1B[39m\x1B[32m65\x1B[39m \x1B[43m\x1B[49m\x1B[38;5;28;43;01mfor\x1B[39;49;00m\x1B[43m \x1B[49m\x1B[43mbatch_idx\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43m(\x1B[49m\x1B[43mspecs\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mlabels\x1B[49m\x1B[43m)\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;129;43;01min\x1B[39;49;00m\x1B[43m \x1B[49m\x1B[38;5;28;43menumerate\x1B[39;49m\x1B[43m(\x1B[49m\x1B[43mloader\x1B[49m\x1B[43m)\x1B[49m\x1B[43m:\x1B[49m\n' +
+      '\x1B[32m     66\x1B[39m \x1B[43m    \x1B[49m\x1B[43mspecs\x1B[49m\x1B[43m \x1B[49m\x1B[43m=\x1B[49m\x1B[43m \x1B[49m\x1B[43mspecs\x1B[49m\x1B[43m.\x1B[49m\x1B[43mto\x1B[49m\x1B[43m(\x1B[49m\x1B[43mdevice\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mnon_blocking\x1B[49m\x1B[43m=\x1B[49m\x1B[38;5;28;43;01mTrue\x1B[39;49;00m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m     67\x1B[39m \x1B[43m    \x1B[49m\x1B[43mlabels\x1B[49m\x1B[43m \x1B[49m\x1B[43m=\x1B[49m\x1B[43m \x1B[49m\x1B[43mlabels\x1B[49m\x1B[43m.\x1B[49m\x1B[43mto\x1B[49m\x1B[43m(\x1B[49m\x1B[43mdevice\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mnon_blocking\x1B[49m\x1B[43m=\x1B[49m\x1B[38;5;28;43;01mTrue\x1B[39;49;00m\x1B[43m)\x1B[49m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/dev/DL-GenAI-P/venv/lib/python3.12/site-packages/torch/utils/data/dataloader.py:741\x1B[39m, in \x1B[36m_BaseDataLoaderIter.__next__\x1B[39m\x1B[34m(self)\x1B[39m\n' +
+      '\x1B[32m    738\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28mself\x1B[39m._sampler_iter \x1B[38;5;129;01mis\x1B[39;00m \x1B[38;5;28;01mNone\x1B[39;00m:\n' +
+      '\x1B[32m    739\x1B[39m     \x1B[38;5;66;03m# TODO(https://github.com/pytorch/pytorch/issues/76750)\x1B[39;00m\n' +
+      '\x1B[32m    740\x1B[39m     \x1B[38;5;28mself\x1B[39m._reset()  \x1B[38;5;66;03m# type: ignore[call-arg]\x1B[39;00m\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m741\x1B[39m data = \x1B[38;5;28;43mself\x1B[39;49m\x1B[43m.\x1B[49m\x1B[43m_next_data\x1B[49m\x1B[43m(\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m    742\x1B[39m \x1B[38;5;28mself\x1B[39m._num_yielded += \x1B[32m1\x1B[39m\n' +
+      '\x1B[32m    743\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m (\n' +
+      '\x1B[32m    744\x1B[39m     \x1B[38;5;28mself\x1B[39m._dataset_kind == _DatasetKind.Iterable\n' +
+      '\x1B[32m    745\x1B[39m     \x1B[38;5;129;01mand\x1B[39;00m \x1B[38;5;28mself\x1B[39m._IterableDataset_len_called \x1B[38;5;129;01mis\x1B[39;00m \x1B[38;5;129;01mnot\x1B[39;00m \x1B[38;5;28;01mNone\x1B[39;00m\n' +
+      '\x1B[32m    746\x1B[39m     \x1B[38;5;129;01mand\x1B[39;00m \x1B[38;5;28mself\x1B[39m._num_yielded > \x1B[38;5;28mself\x1B[39m._IterableDataset_len_called\n' +
+      '\x1B[32m    747\x1B[39m ):\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/dev/DL-GenAI-P/venv/lib/python3.12/site-packages/torch/utils/data/dataloader.py:801\x1B[39m, in \x1B[36m_SingleProcessDataLoaderIter._next_data\x1B[39m\x1B[34m(self)\x1B[39m\n' +
+      '\x1B[32m    799\x1B[39m \x1B[38;5;28;01mdef\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34m_next_data\x1B[39m(\x1B[38;5;28mself\x1B[39m):\n' +
+      '\x1B[32m    800\x1B[39m     index = \x1B[38;5;28mself\x1B[39m._next_index()  \x1B[38;5;66;03m# may raise StopIteration\x1B[39;00m\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m801\x1B[39m     data = \x1B[38;5;28;43mself\x1B[39;49m\x1B[43m.\x1B[49m\x1B[43m_dataset_fetcher\x1B[49m\x1B[43m.\x1B[49m\x1B[43mfetch\x1B[49m\x1B[43m(\x1B[49m\x1B[43mindex\x1B[49m\x1B[43m)\x1B[49m  \x1B[38;5;66;03m# may raise StopIteration\x1B[39;00m\n' +
+      '\x1B[32m    802\x1B[39m     \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28mself\x1B[39m._pin_memory:\n' +
+      '\x1B[32m    803\x1B[39m         data = _utils.pin_memory.pin_memory(data, \x1B[38;5;28mself\x1B[39m._pin_memory_device)\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/dev/DL-GenAI-P/venv/lib/python3.12/site-packages/torch/utils/data/_utils/fetch.py:54\x1B[39m, in \x1B[36m_MapDatasetFetcher.fetch\x1B[39m\x1B[34m(self, possibly_batched_index)\x1B[39m\n' +
+      '\x1B[32m     52\x1B[39m         data = \x1B[38;5;28mself\x1B[39m.dataset.__getitems__(possibly_batched_index)\n' +
+      '\x1B[32m     53\x1B[39m     \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[32m---> \x1B[39m\x1B[32m54\x1B[39m         data = [\x1B[38;5;28;43mself\x1B[39;49m\x1B[43m.\x1B[49m\x1B[43mdataset\x1B[49m\x1B[43m[\x1B[49m\x1B[43midx\x1B[49m\x1B[43m]\x1B[49m \x1B[38;5;28;01mfor\x1B[39;00m idx \x1B[38;5;129;01min\x1B[39;00m possibly_batched_index]\n' +
+      '\x1B[32m     55\x1B[39m \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[32m     56\x1B[39m     data = \x1B[38;5;28mself\x1B[39m.dataset[possibly_batched_index]\n',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[66]\x1B[39m\x1B[32m, line 29\x1B[39m, in \x1B[36mWav2Vec2MashupDataset.__getitem__\x1B[39m\x1B[34m(self, idx)\x1B[39m\n' +
+      '\x1B[32m     24\x1B[39m audio, _ = create_synthetic_mashup(genre, \x1B[38;5;28mself\x1B[39m.stem_index,\n' +
+      '\x1B[32m     25\x1B[39m                                    target_duration=config.CHUNK_DURATION,\n' +
+      '\x1B[32m     26\x1B[39m                                    add_noise=\x1B[38;5;28mself\x1B[39m.add_noise,\n' +
+      '\x1B[32m     27\x1B[39m                                    apply_tempo=\x1B[38;5;28mself\x1B[39m.apply_tempo)\n' +
+      '\x1B[32m     28\x1B[39m \x1B[38;5;66;03m# Feature extractor handles normalization\x1B[39;00m\n' +
+      '\x1B[32m---> \x1B[39m\x1B[32m29\x1B[39m inputs = \x1B[38;5;28;43mself\x1B[39;49m\x1B[43m.\x1B[49m\x1B[43mfe\x1B[49m\x1B[43m(\x1B[49m\x1B[43maudio\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43msampling_rate\x1B[49m\x1B[43m=\x1B[49m\x1B[43mconfig\x1B[49m\x1B[43m.\x1B[49m\x1B[43mSAMPLE_RATE\x1B[49m\x1B[43m,\x1B[49m\n' +
+      "\x1B[32m     30\x1B[39m \x1B[43m                 \x1B[49m\x1B[43mreturn_tensors\x1B[49m\x1B[43m=\x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43mpt\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mpadding\x1B[49m\x1B[43m=\x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43mmax_length\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m,\x1B[49m\n" +
+      '\x1B[32m     31\x1B[39m \x1B[43m                 \x1B[49m\x1B[43mmax_length\x1B[49m\x1B[43m=\x1B[49m\x1B[43mconfig\x1B[49m\x1B[43m.\x1B[49m\x1B[43mCHUNK_SAMPLES\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mtruncation\x1B[49m\x1B[43m=\x1B[49m\x1B[38;5;28;43;01mTrue\x1B[39;49;00m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m     32\x1B[39m label = config.GENRE_TO_IDX[genre]\n' +
+      "\x1B[32m     33\x1B[39m \x1B[38;5;28;01mreturn\x1B[39;00m inputs[\x1B[33m'\x1B[39m\x1B[33minput_values\x1B[39m\x1B[33m'\x1B[39m].squeeze(\x1B[32m0\x1B[39m), label\n",
+    '\x1B[36mFile \x1B[39m\x1B[32m~/dev/DL-GenAI-P/venv/lib/python3.12/site-packages/transformers/models/wav2vec2/feature_extraction_wav2vec2.py:170\x1B[39m, in \x1B[36mWav2Vec2FeatureExtractor.__call__\x1B[39m\x1B[34m(self, raw_speech, padding, max_length, truncation, pad_to_multiple_of, return_attention_mask, return_tensors, sampling_rate, **kwargs)\x1B[39m\n' +
+      '\x1B[32m    168\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m sampling_rate \x1B[38;5;129;01mis\x1B[39;00m \x1B[38;5;129;01mnot\x1B[39;00m \x1B[38;5;28;01mNone\x1B[39;00m:\n' +
+      '\x1B[32m    169\x1B[39m     \x1B[38;5;28;01mif\x1B[39;00m sampling_rate != \x1B[38;5;28mself\x1B[39m.sampling_rate:\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m170\x1B[39m         \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mValueError\x1B[39;00m(\n' +
+      '\x1B[32m    171\x1B[39m             \x1B[33mf\x1B[39m\x1B[33m"\x1B[39m\x1B[33mThe model corresponding to this feature extractor: \x1B[39m\x1B[38;5;132;01m{\x1B[39;00m\x1B[38;5;28mself\x1B[39m\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m was trained using a sampling rate of\x1B[39m\x1B[33m"\x1B[39m\n' +
+      '\x1B[32m    172\x1B[39m             \x1B[33mf\x1B[39m\x1B[33m"\x1B[39m\x1B[33m \x1B[39m\x1B[38;5;132;01m{\x1B[39;00m\x1B[38;5;28mself\x1B[39m.sampling_rate\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m. Please make sure that the provided `raw_speech` input was sampled with\x1B[39m\x1B[33m"\x1B[39m\n' +
+      '\x1B[32m    173\x1B[39m             \x1B[33mf\x1B[39m\x1B[33m"\x1B[39m\x1B[33m \x1B[39m\x1B[38;5;132;01m{\x1B[39;00m\x1B[38;5;28mself\x1B[39m.sampling_rate\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m and not \x1B[39m\x1B[38;5;132;01m{\x1B[39;00msampling_rate\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m.\x1B[39m\x1B[33m"\x1B[39m\n' +
+      '\x1B[32m    174\x1B[39m         )\n' +
+      '\x1B[32m    175\x1B[39m \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[32m    176\x1B[39m     logger.warning(\n' +
+      '\x1B[32m    177\x1B[39m         \x1B[33mf\x1B[39m\x1B[33m"\x1B[39m\x1B[33mIt is strongly recommended to pass the `sampling_rate` argument to `\x1B[39m\x1B[38;5;132;01m{\x1B[39;00m\x1B[38;5;28mself\x1B[39m.\x1B[34m__class__\x1B[39m.\x1B[34m__name__\x1B[39m\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m()`. \x1B[39m\x1B[33m"\x1B[39m\n' +
+      '\x1B[32m    178\x1B[39m         \x1B[33m"\x1B[39m\x1B[33mFailing to do so can result in silent errors that might be hard to debug.\x1B[39m\x1B[33m"\x1B[39m\n' +
+      '\x1B[32m    179\x1B[39m     )\n',
+    '\x1B[31mValueError\x1B[39m: The model corresponding to this feature extractor: Wav2Vec2FeatureExtractor {\n' +
+      '  "do_normalize": true,\n' +
+      '  "feature_extractor_type": "Wav2Vec2FeatureExtractor",\n' +
+      '  "feature_size": 1,\n' +
+      '  "padding_side": "right",\n' +
+      '  "padding_value": 0.0,\n' +
+      '  "return_attention_mask": false,\n' +
+      '  "sampling_rate": 16000\n' +
+      '}\n' +
+      ' was trained using a sampling rate of 16000. Please make sure that the provided `raw_speech` input was sampled with 16000 and not 22050.'
+  ]
+}
+02:16:26.195 [error] Disposing session as kernel process died ExitCode: undefined, Reason: Python(98265) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+
+02:18:01.458 [info] Restart requested ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+02:18:01.469 [warn] Cancel all remaining cells due to dead kernel
+02:18:01.534 [error] Failure in registering port attributes [Error: Extension 'ms-toolsai.jupyter' CANNOT use API proposal: portsAttributes.
+Its package.json#enabledApiProposals-property declares: notebookDeprecated, notebookMessaging, notebookMime, notebookCellExecutionState, quickPickSortByLabel, notebookKernelSource, interactiveWindow, notebookControllerAffinityHidden, contribNotebookStaticPreloads, quickPickItemTooltip, notebookExecution, notebookCellExecution, notebookVariableProvider, notebookReplDocument but NOT portsAttributes.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-toolsai.jupyter. Note that the cursor and control proposals are only available for built-in extensions
+	at U (file:///Applications/Cursor.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:133:20176)
+	at Object.registerPortAttributesProvider (file:///Applications/Cursor.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:203:164001)
+	at ZD (~/.cursor/extensions/ms-toolsai.jupyter-2025.4.1/dist/extension.node.js:279:2688)
+	at Us.launch (~/.cursor/extensions/ms-toolsai.jupyter-2025.4.1/dist/extension.node.js:300:7467)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async dT.start (~/.cursor/extensions/ms-toolsai.jupyter-2025.4.1/dist/extension.node.js:301:11153)
+	at async dT.restart (~/.cursor/extensions/ms-toolsai.jupyter-2025.4.1/dist/extension.node.js:301:10867)
+	at async iT.restart (~/.cursor/extensions/ms-toolsai.jupyter-2025.4.1/dist/extension.node.js:279:30732)]
+02:18:01.632 [info] Process Execution: ~/dev/DL-GenAI-P/venv/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+02:18:01.633 [info] Process Execution: ~/dev/DL-GenAI-P/venv/bin/python -m ipykernel_launcher --f=~/Library/Jupyter/runtime/kernel-v3be3a15079c590c8c47f28e386cdaba86ebf40bd1.json
+    > cwd: ~/dev/DL-GenAI-P/notebooks
+02:18:02.148 [info] Restarted 8b304f67-d918-464d-974d-51bc2613145c
+02:18:02.418 [warn] Cell completed with errors [lu [Error]: name 'Wav2Vec2MashupDataset' is not defined
+	at n.execute (~/.cursor/extensions/ms-toolsai.jupyter-2025.4.1/dist/extension.node.js:294:4958)] {
+  ename: 'NameError',
+  evalue: "name 'Wav2Vec2MashupDataset' is not defined",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mNameError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[1]\x1B[39m\x1B[32m, line 5\x1B[39m\n' +
+      '\x1B[32m      2\x1B[39m N_W2V_TRAIN = \x1B[32m1000\x1B[39m   \x1B[38;5;66;03m# keep small — each sample takes ~1s to generate\x1B[39;00m\n' +
+      '\x1B[32m      3\x1B[39m N_W2V_VAL   = \x1B[32m200\x1B[39m\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m5\x1B[39m w2v_train_dataset = \x1B[43mWav2Vec2MashupDataset\x1B[49m(\n' +
+      '\x1B[32m      6\x1B[39m     stem_index=train_index, n_samples=N_W2V_TRAIN,\n' +
+      '\x1B[32m      7\x1B[39m     feature_extractor=w2v_fe, add_noise=\x1B[38;5;28;01mTrue\x1B[39;00m, apply_tempo=\x1B[38;5;28;01mFalse\x1B[39;00m)\n' +
+      '\x1B[32m      8\x1B[39m w2v_val_dataset = Wav2Vec2MashupDataset(\n' +
+      '\x1B[32m      9\x1B[39m     stem_index=val_index, n_samples=N_W2V_VAL,\n' +
+      '\x1B[32m     10\x1B[39m     feature_extractor=w2v_fe, add_noise=\x1B[38;5;28;01mTrue\x1B[39;00m, apply_tempo=\x1B[38;5;28;01mFalse\x1B[39;00m)\n' +
+      '\x1B[32m     12\x1B[39m w2v_train_loader = DataLoader(w2v_train_dataset, batch_size=\x1B[32m8\x1B[39m,\n' +
+      '\x1B[32m     13\x1B[39m                                 shuffle=\x1B[38;5;28;01mTrue\x1B[39;00m, num_workers=\x1B[32m0\x1B[39m)\n',
+    "\x1B[31mNameError\x1B[39m: name 'Wav2Vec2MashupDataset' is not defined"
+  ]
+}
+02:26:48.900 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+02:26:48.916 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+02:26:48.916 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+02:26:48.916 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+02:26:48.922 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+02:26:48.922 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+02:26:48.923 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+02:26:48.929 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+02:26:48.929 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+02:26:48.935 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+02:26:48.935 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+02:26:48.936 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+02:26:48.936 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+02:26:48.947 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+02:26:48.947 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+02:26:48.963 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+02:26:48.963 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+02:26:48.963 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+02:26:48.969 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+02:26:48.969 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+02:26:48.969 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+02:26:48.969 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+02:26:48.975 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+02:26:48.975 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+02:26:48.981 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+02:26:48.981 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+02:26:48.981 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+02:26:48.982 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+02:26:48.982 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+02:26:48.982 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+02:26:48.982 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+02:26:48.982 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+02:26:49.248 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+02:31:58.046 [info] Restart requested ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+02:31:58.079 [error] Failure in registering port attributes [Error: Extension 'ms-toolsai.jupyter' CANNOT use API proposal: portsAttributes.
+Its package.json#enabledApiProposals-property declares: notebookDeprecated, notebookMessaging, notebookMime, notebookCellExecutionState, quickPickSortByLabel, notebookKernelSource, interactiveWindow, notebookControllerAffinityHidden, contribNotebookStaticPreloads, quickPickItemTooltip, notebookExecution, notebookCellExecution, notebookVariableProvider, notebookReplDocument but NOT portsAttributes.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-toolsai.jupyter. Note that the cursor and control proposals are only available for built-in extensions
+	at U (file:///Applications/Cursor.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:133:20176)
+	at Object.registerPortAttributesProvider (file:///Applications/Cursor.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:203:164001)
+	at ZD (~/.cursor/extensions/ms-toolsai.jupyter-2025.4.1/dist/extension.node.js:279:2688)
+	at Us.launch (~/.cursor/extensions/ms-toolsai.jupyter-2025.4.1/dist/extension.node.js:300:7467)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async dT.start (~/.cursor/extensions/ms-toolsai.jupyter-2025.4.1/dist/extension.node.js:301:11153)
+	at async dT.restart (~/.cursor/extensions/ms-toolsai.jupyter-2025.4.1/dist/extension.node.js:301:10867)
+	at async iT.restart (~/.cursor/extensions/ms-toolsai.jupyter-2025.4.1/dist/extension.node.js:279:30732)]
+02:31:58.166 [info] Process Execution: ~/dev/DL-GenAI-P/venv/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+02:31:58.167 [info] Process Execution: ~/dev/DL-GenAI-P/venv/bin/python -m ipykernel_launcher --f=~/Library/Jupyter/runtime/kernel-v3d2fb010382cef3c23f2658f24d04147cbb825d5d.json
+    > cwd: ~/dev/DL-GenAI-P/notebooks
+02:31:58.779 [info] Restarted 8b304f67-d918-464d-974d-51bc2613145c
+02:42:18.978 [error] Widget Error: Error: Failed to render widget 39add6ee8f22434da053218e892f9db6, Error: widget model not found
+02:42:18.981 [error] Widget Error: Error: Failed to render widget f27a84b3c2bf4eee8bbd08a524b241ef, Error: widget model not found
+09:36:05.146 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+09:50:47.207 [error] Widget Error: Error: Failed to render widget 39add6ee8f22434da053218e892f9db6, Error: widget model not found
+09:50:47.225 [error] Widget Error: Error: Failed to render widget f27a84b3c2bf4eee8bbd08a524b241ef, Error: widget model not found
+09:50:47.225 [error] Widget Error: Error: Failed to render widget fe53fac266b54990877248d6ca5dde82, Error: widget model not found
+09:50:47.225 [error] Widget Error: Error: Failed to render widget cfc08a09181f4bcbbfafe885316ea99c, Error: widget model not found
+09:50:47.226 [error] Widget Error: Error: Failed to render widget a6d96dd3105941fda214e5117f366c43, Error: widget model not found
+09:50:47.226 [error] Widget Error: Error: Failed to render widget e402bde92a9b43ab8e723bb348bcbbc7, Error: widget model not found
+09:50:47.226 [error] Widget Error: Error: Failed to render widget e13aa05a55cf41ad81692d253eeeae01, Error: widget model not found
+09:50:47.226 [error] Widget Error: Error: Failed to render widget afa1bf19589c420a9081a3d171244646, Error: widget model not found
+09:50:47.226 [error] Widget Error: Error: Failed to render widget bd01d73270a9401cadb28e33be4c32ed, Error: widget model not found
+09:50:47.226 [error] Widget Error: Error: Failed to render widget 7ea889567c3b443fb58f6393ab132c52, Error: widget model not found
+09:50:47.226 [error] Widget Error: Error: Failed to render widget ceed0b19afe645f6aa3aad2ce135b6f8, Error: widget model not found
+09:50:47.226 [error] Widget Error: Error: Failed to render widget 1ef6a1104f1248a5adeed698b89f696e, Error: widget model not found
+09:50:47.226 [error] Widget Error: Error: Failed to render widget 4216ad3d873e45ad9e6b7550ae274b89, Error: widget model not found
+09:50:47.227 [error] Widget Error: Error: Failed to render widget a74cf178381947b299afe6f81dfc6c9a, Error: widget model not found
+09:50:47.227 [error] Widget Error: Error: Failed to render widget 1f2fc87f4fed4d019065ccf8b3886389, Error: widget model not found
+09:50:47.227 [error] Widget Error: Error: Failed to render widget c9ba5b8dee4d4ebfb695e54c6afb1dc8, Error: widget model not found
+09:50:47.227 [error] Widget Error: Error: Failed to render widget 34226adb2e8547cbb0cdd297804e65c1, Error: widget model not found
+09:50:47.227 [error] Widget Error: Error: Failed to render widget 734f6c351e6e4d1bb3202d73f23004b9, Error: widget model not found
+09:50:47.228 [error] Widget Error: Error: Failed to render widget 64f6c182cf5a4a6696ace431e7a48258, Error: widget model not found
+09:50:47.228 [error] Widget Error: Error: Failed to render widget 36b9c6dd41e243ea88e45e209e522994, Error: widget model not found
+09:50:54.078 [info] Restart requested ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+09:50:54.526 [error] Failure in registering port attributes [Error: Extension 'ms-toolsai.jupyter' CANNOT use API proposal: portsAttributes.
+Its package.json#enabledApiProposals-property declares: notebookDeprecated, notebookMessaging, notebookMime, notebookCellExecutionState, quickPickSortByLabel, notebookKernelSource, interactiveWindow, notebookControllerAffinityHidden, contribNotebookStaticPreloads, quickPickItemTooltip, notebookExecution, notebookCellExecution, notebookVariableProvider, notebookReplDocument but NOT portsAttributes.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-toolsai.jupyter. Note that the cursor and control proposals are only available for built-in extensions
+	at U (file:///Applications/Cursor.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:133:20176)
+	at Object.registerPortAttributesProvider (file:///Applications/Cursor.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:203:164001)
+	at ZD (~/.cursor/extensions/ms-toolsai.jupyter-2025.4.1/dist/extension.node.js:279:2688)
+	at Us.launch (~/.cursor/extensions/ms-toolsai.jupyter-2025.4.1/dist/extension.node.js:300:7467)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async dT.start (~/.cursor/extensions/ms-toolsai.jupyter-2025.4.1/dist/extension.node.js:301:11153)
+	at async dT.restart (~/.cursor/extensions/ms-toolsai.jupyter-2025.4.1/dist/extension.node.js:301:10867)
+	at async iT.restart (~/.cursor/extensions/ms-toolsai.jupyter-2025.4.1/dist/extension.node.js:279:30732)]
+09:50:54.913 [info] Process Execution: ~/dev/DL-GenAI-P/venv/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+09:50:54.915 [info] Process Execution: ~/dev/DL-GenAI-P/venv/bin/python -m ipykernel_launcher --f=~/Library/Jupyter/runtime/kernel-v3f25bd70f559c7814621f7fe7daff156d5865d7ca.json
+    > cwd: ~/dev/DL-GenAI-P/notebooks
+09:50:56.983 [info] Restarted 8b304f67-d918-464d-974d-51bc2613145c
+11:28:08.463 [warn] Cell completed with errors [lu [Error]: name 'filenames' is not defined
+	at n.execute (~/.cursor/extensions/ms-toolsai.jupyter-2025.4.1/dist/extension.node.js:294:4958)] {
+  ename: 'NameError',
+  evalue: "name 'filenames' is not defined",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mNameError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[20]\x1B[39m\x1B[32m, line 14\x1B[39m\n' +
+      "\x1B[32m     12\x1B[39m     test_id_to_probs = \x1B[38;5;28mdict\x1B[39m(cached[\x1B[33m'\x1B[39m\x1B[33mid_to_probs\x1B[39m\x1B[33m'\x1B[39m].item())\n" +
+      '\x1B[32m     13\x1B[39m \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      "\x1B[32m---> \x1B[39m\x1B[32m14\x1B[39m     \x1B[38;5;28mprint\x1B[39m(\x1B[33mf\x1B[39m\x1B[33m'\x1B[39m\x1B[33mExtracting \x1B[39m\x1B[38;5;132;01m{\x1B[39;00mN_TEST_CROPS\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m-crop test features for \x1B[39m\x1B[38;5;132;01m{\x1B[39;00m\x1B[38;5;28mlen\x1B[39m(\x1B[43mfilenames\x1B[49m)\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m files...\x1B[39m\x1B[33m'\x1B[39m)\n" +
+      '\x1B[32m     15\x1B[39m     t0 = time.time()\n' +
+      '\x1B[32m     16\x1B[39m     test_id_to_probs = {}\n',
+    "\x1B[31mNameError\x1B[39m: name 'filenames' is not defined"
+  ]
+}
+11:28:08.474 [warn] Cancel all remaining cells due to cancellation or failure in execution
+11:35:47.925 [info] Interrupt kernel execution
+11:35:47.927 [info] Interrupt requested ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+11:35:47.930 [info] Interrupt kernel execution
+11:35:47.930 [info] Interrupting kernel: python31212jvsc74a57bd040334e451451ba655537a26727dec62beeeebb16184526df2f2338ef4e0e4754
+11:35:47.935 [info] Interrupting kernel via SIGINT
+11:35:51.494 [warn] Cell completed with errors (cancelled)
+11:35:51.508 [info] Interrupt requested & sent for ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb in notebookEditor.
+14:11:13.627 [error] Disposing session as kernel process died ExitCode: undefined, Reason: 
+14:12:01.602 [info] Restart requested ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+14:12:01.619 [warn] Cancel all remaining cells due to dead kernel
+14:12:01.670 [error] Failure in registering port attributes [Error: Extension 'ms-toolsai.jupyter' CANNOT use API proposal: portsAttributes.
+Its package.json#enabledApiProposals-property declares: notebookDeprecated, notebookMessaging, notebookMime, notebookCellExecutionState, quickPickSortByLabel, notebookKernelSource, interactiveWindow, notebookControllerAffinityHidden, contribNotebookStaticPreloads, quickPickItemTooltip, notebookExecution, notebookCellExecution, notebookVariableProvider, notebookReplDocument but NOT portsAttributes.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-toolsai.jupyter. Note that the cursor and control proposals are only available for built-in extensions
+	at U (file:///Applications/Cursor.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:133:20176)
+	at Object.registerPortAttributesProvider (file:///Applications/Cursor.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:203:164001)
+	at ZD (~/.cursor/extensions/ms-toolsai.jupyter-2025.4.1/dist/extension.node.js:279:2688)
+	at Us.launch (~/.cursor/extensions/ms-toolsai.jupyter-2025.4.1/dist/extension.node.js:300:7467)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async dT.start (~/.cursor/extensions/ms-toolsai.jupyter-2025.4.1/dist/extension.node.js:301:11153)
+	at async dT.restart (~/.cursor/extensions/ms-toolsai.jupyter-2025.4.1/dist/extension.node.js:301:10867)
+	at async iT.restart (~/.cursor/extensions/ms-toolsai.jupyter-2025.4.1/dist/extension.node.js:279:30732)]
+14:12:01.900 [info] Process Execution: ~/dev/DL-GenAI-P/venv/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+14:12:01.901 [info] Process Execution: ~/dev/DL-GenAI-P/venv/bin/python -m ipykernel_launcher --f=~/Library/Jupyter/runtime/kernel-v37370c78f58ab8b0449bca27d70bc1118a32f8230.json
+    > cwd: ~/dev/DL-GenAI-P/notebooks
+14:12:02.531 [info] Restarted 8b304f67-d918-464d-974d-51bc2613145c
+14:12:03.697 [warn] Cell completed with errors [lu [Error]: No module named 'src'
+	at n.execute (~/.cursor/extensions/ms-toolsai.jupyter-2025.4.1/dist/extension.node.js:294:4958)] {
+  ename: 'ModuleNotFoundError',
+  evalue: "No module named 'src'",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mModuleNotFoundError\x1B[39m                       Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[1]\x1B[39m\x1B[32m, line 6\x1B[39m\n' +
+      '\x1B[32m      3\x1B[39m \x1B[38;5;28;01mimport\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mtorch\x1B[39;00m\x1B[34;01m.\x1B[39;00m\x1B[34;01mnn\x1B[39;00m\x1B[34;01m.\x1B[39;00m\x1B[34;01mfunctional\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mas\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mF\x1B[39;00m\n' +
+      '\x1B[32m      4\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mtorch\x1B[39;00m\x1B[34;01m.\x1B[39;00m\x1B[34;01mutils\x1B[39;00m\x1B[34;01m.\x1B[39;00m\x1B[34;01mdata\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m DataLoader\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m6\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01msrc\x1B[39;00m\x1B[34;01m.\x1B[39;00m\x1B[34;01mdataset\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m SyntheticMashupDataset, TestMashupDataset\n' +
+      '\x1B[32m      7\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01msrc\x1B[39;00m\x1B[34;01m.\x1B[39;00m\x1B[34;01mmodels\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m get_model, count_parameters\n' +
+      '\x1B[32m      8\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01msrc\x1B[39;00m\x1B[34;01m.\x1B[39;00m\x1B[34;01mtrain\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m train, load_best_model, print_classification_report\n',
+    "\x1B[31mModuleNotFoundError\x1B[39m: No module named 'src'"
+  ]
+}
+14:13:03.175 [warn] Cell completed with errors [lu [Error]: name 'train_loader' is not defined
+	at n.execute (~/.cursor/extensions/ms-toolsai.jupyter-2025.4.1/dist/extension.node.js:294:4958)] {
+  ename: 'NameError',
+  evalue: "name 'train_loader' is not defined",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mNameError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[8]\x1B[39m\x1B[32m, line 4\x1B[39m\n' +
+      '\x1B[32m      1\x1B[39m \x1B[38;5;66;03m# Run training\x1B[39;00m\n' +
+      '\x1B[32m      2\x1B[39m history = train(\n' +
+      '\x1B[32m      3\x1B[39m     model=model,\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m4\x1B[39m     train_loader=\x1B[43mtrain_loader\x1B[49m,\n' +
+      '\x1B[32m      5\x1B[39m     val_loader=val_loader,\n' +
+      '\x1B[32m      6\x1B[39m     save_path=cnn_save_path,\n' +
+      '\x1B[32m      7\x1B[39m     num_epochs=CNN_EPOCHS,\n' +
+      '\x1B[32m      8\x1B[39m     lr=CNN_LR,\n' +
+      '\x1B[32m      9\x1B[39m     patience=CNN_PATIENCE,\n' +
+      '\x1B[32m     10\x1B[39m     device=device,\n' +
+      '\x1B[32m     11\x1B[39m     label_smoothing=\x1B[32m0.1\x1B[39m,\n' +
+      '\x1B[32m     12\x1B[39m     verbose=\x1B[38;5;28;01mTrue\x1B[39;00m,\n' +
+      '\x1B[32m     13\x1B[39m )\n',
+    "\x1B[31mNameError\x1B[39m: name 'train_loader' is not defined"
+  ]
+}
+14:53:20.011 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+14:53:20.019 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+14:53:20.019 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+14:53:20.020 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+14:53:20.020 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+14:53:20.020 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+14:53:20.020 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+14:53:20.020 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+14:53:20.020 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+14:53:20.020 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+14:53:20.020 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+14:53:20.077 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+14:53:20.078 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+14:53:20.080 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+14:53:20.080 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+14:53:20.081 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+15:13:30.486 [error] Disposing session as kernel process died ExitCode: undefined, Reason: 
+15:25:51.135 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+15:25:51.179 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+15:25:51.181 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+15:25:51.181 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+15:25:51.181 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+15:25:51.186 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+15:25:51.448 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+15:25:51.450 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+15:25:51.452 [error] Error in waiting for cell to complete [Error: Canceled future for execute_request message before replies were done
+	at Ms.dispose (~/.cursor/extensions/ms-toolsai.jupyter-2025.4.1/dist/node_modules/@jupyterlab/services/lib/kernel/default/index.js:17:43404)
+	at n.<anonymous> (~/.cursor/extensions/ms-toolsai.jupyter-2025.4.1/dist/extension.node.js:293:2925)
+	at vke.value (file:///Applications/Cursor.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:203:135820)
+	at x._deliver (file:///Applications/Cursor.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:2961)
+	at x._deliverQueue (file:///Applications/Cursor.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:3052)
+	at x.fire (file:///Applications/Cursor.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:3389)
+	at vke.value (file:///Applications/Cursor.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:166:2261826)
+	at x._deliver (file:///Applications/Cursor.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:2961)
+	at x.fire (file:///Applications/Cursor.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:3282)
+	at sLe.acceptDocumentsAndEditorsDelta (file:///Applications/Cursor.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:148:14282)
+	at sLe.$acceptDocumentsAndEditorsDelta (file:///Applications/Cursor.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:148:12740)
+	at Al._doInvokeHandler (file:///Applications/Cursor.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:46:126011)
+	at Al._invokeHandler (file:///Applications/Cursor.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:46:125753)
+	at Al._receiveRequest (file:///Applications/Cursor.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:46:124388)
+	at Al._receiveOneMessage (file:///Applications/Cursor.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:46:123213)
+	at vke.value (file:///Applications/Cursor.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:46:121246)
+	at x._deliver (file:///Applications/Cursor.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:2961)
+	at x.fire (file:///Applications/Cursor.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:3282)
+	at uc.fire (file:///Applications/Cursor.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:46:10988)
+	at vke.value (file:///Applications/Cursor.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:671:6143)
+	at x._deliver (file:///Applications/Cursor.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:2961)
+	at x.fire (file:///Applications/Cursor.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:3282)
+	at uc.fire (file:///Applications/Cursor.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:46:10988)
+	at MessagePortMain.<anonymous> (file:///Applications/Cursor.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:671:4345)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2959)]
+15:25:51.462 [warn] Cell completed with errors {
+  message: 'Canceled future for execute_request message before replies were done'
+}
+15:25:51.467 [warn] Cancel all remaining cells due to dead kernel
+15:37:30.541 [info] Restart requested ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+15:37:30.659 [error] Failure in registering port attributes [Error: Extension 'ms-toolsai.jupyter' CANNOT use API proposal: portsAttributes.
+Its package.json#enabledApiProposals-property declares: notebookDeprecated, notebookMessaging, notebookMime, notebookCellExecutionState, quickPickSortByLabel, notebookKernelSource, interactiveWindow, notebookControllerAffinityHidden, contribNotebookStaticPreloads, quickPickItemTooltip, notebookExecution, notebookCellExecution, notebookVariableProvider, notebookReplDocument but NOT portsAttributes.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-toolsai.jupyter. Note that the cursor and control proposals are only available for built-in extensions
+	at U (file:///Applications/Cursor.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:133:20176)
+	at Object.registerPortAttributesProvider (file:///Applications/Cursor.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:203:164001)
+	at ZD (~/.cursor/extensions/ms-toolsai.jupyter-2025.4.1/dist/extension.node.js:279:2688)
+	at Us.launch (~/.cursor/extensions/ms-toolsai.jupyter-2025.4.1/dist/extension.node.js:300:7467)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async dT.start (~/.cursor/extensions/ms-toolsai.jupyter-2025.4.1/dist/extension.node.js:301:11153)
+	at async dT.restart (~/.cursor/extensions/ms-toolsai.jupyter-2025.4.1/dist/extension.node.js:301:10867)
+	at async iT.restart (~/.cursor/extensions/ms-toolsai.jupyter-2025.4.1/dist/extension.node.js:279:30732)]
+15:37:30.855 [info] Process Execution: ~/dev/DL-GenAI-P/venv/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+15:37:30.857 [info] Process Execution: ~/dev/DL-GenAI-P/venv/bin/python -m ipykernel_launcher --f=~/Library/Jupyter/runtime/kernel-v398529b3ac46d8cf4a4a32849f5bca1d2b1433e43.json
+    > cwd: ~/dev/DL-GenAI-P/notebooks
+15:37:31.496 [info] Restarted 8b304f67-d918-464d-974d-51bc2613145c
+15:41:48.679 [error] Disposing session as kernel process died ExitCode: undefined, Reason: 
+15:47:47.729 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+15:47:47.785 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+15:47:47.785 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+15:47:47.785 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+15:47:48.025 [info] Disposing request as the cell (-1) was deleted ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+15:47:48.026 [error] Error in waiting for cell to complete [Error: Canceled future for execute_request message before replies were done
+	at Ms.dispose (~/.cursor/extensions/ms-toolsai.jupyter-2025.4.1/dist/node_modules/@jupyterlab/services/lib/kernel/default/index.js:17:43404)
+	at n.<anonymous> (~/.cursor/extensions/ms-toolsai.jupyter-2025.4.1/dist/extension.node.js:293:2925)
+	at vke.value (file:///Applications/Cursor.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:203:135820)
+	at x._deliver (file:///Applications/Cursor.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:2961)
+	at x._deliverQueue (file:///Applications/Cursor.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:3052)
+	at x.fire (file:///Applications/Cursor.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:3389)
+	at vke.value (file:///Applications/Cursor.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:166:2261826)
+	at x._deliver (file:///Applications/Cursor.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:2961)
+	at x.fire (file:///Applications/Cursor.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:3282)
+	at sLe.acceptDocumentsAndEditorsDelta (file:///Applications/Cursor.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:148:14282)
+	at sLe.$acceptDocumentsAndEditorsDelta (file:///Applications/Cursor.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:148:12740)
+	at Al._doInvokeHandler (file:///Applications/Cursor.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:46:126011)
+	at Al._invokeHandler (file:///Applications/Cursor.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:46:125753)
+	at Al._receiveRequest (file:///Applications/Cursor.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:46:124388)
+	at Al._receiveOneMessage (file:///Applications/Cursor.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:46:123213)
+	at vke.value (file:///Applications/Cursor.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:46:121246)
+	at x._deliver (file:///Applications/Cursor.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:2961)
+	at x.fire (file:///Applications/Cursor.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:3282)
+	at uc.fire (file:///Applications/Cursor.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:46:10988)
+	at vke.value (file:///Applications/Cursor.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:671:6143)
+	at x._deliver (file:///Applications/Cursor.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:2961)
+	at x.fire (file:///Applications/Cursor.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:3282)
+	at uc.fire (file:///Applications/Cursor.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:46:10988)
+	at MessagePortMain.<anonymous> (file:///Applications/Cursor.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:671:4345)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2959)]
+15:47:48.028 [warn] Cell completed with errors {
+  message: 'Canceled future for execute_request message before replies were done'
+}
+15:47:48.031 [warn] Cancel all remaining cells due to dead kernel
+16:04:27.711 [info] Restart requested ~/dev/DL-GenAI-P/notebooks/messy_mashup.ipynb
+16:04:28.096 [error] Failure in registering port attributes [Error: Extension 'ms-toolsai.jupyter' CANNOT use API proposal: portsAttributes.
+Its package.json#enabledApiProposals-property declares: notebookDeprecated, notebookMessaging, notebookMime, notebookCellExecutionState, quickPickSortByLabel, notebookKernelSource, interactiveWindow, notebookControllerAffinityHidden, contribNotebookStaticPreloads, quickPickItemTooltip, notebookExecution, notebookCellExecution, notebookVariableProvider, notebookReplDocument but NOT portsAttributes.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-toolsai.jupyter. Note that the cursor and control proposals are only available for built-in extensions
+	at U (file:///Applications/Cursor.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:133:20176)
+	at Object.registerPortAttributesProvider (file:///Applications/Cursor.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:203:164001)
+	at ZD (~/.cursor/extensions/ms-toolsai.jupyter-2025.4.1/dist/extension.node.js:279:2688)
+	at Us.launch (~/.cursor/extensions/ms-toolsai.jupyter-2025.4.1/dist/extension.node.js:300:7467)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async dT.start (~/.cursor/extensions/ms-toolsai.jupyter-2025.4.1/dist/extension.node.js:301:11153)
+	at async dT.restart (~/.cursor/extensions/ms-toolsai.jupyter-2025.4.1/dist/extension.node.js:301:10867)
+	at async iT.restart (~/.cursor/extensions/ms-toolsai.jupyter-2025.4.1/dist/extension.node.js:279:30732)]
+16:04:28.329 [info] Process Execution: ~/dev/DL-GenAI-P/venv/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+16:04:28.342 [info] Process Execution: ~/dev/DL-GenAI-P/venv/bin/python -m ipykernel_launcher --f=~/Library/Jupyter/runtime/kernel-v3135b3c132c1f69e3bbfa2ee16e0d717899f8430d.json
+    > cwd: ~/dev/DL-GenAI-P/notebooks
+16:04:29.179 [info] Restarted 8b304f67-d918-464d-974d-51bc2613145c
+16:08:21.562 [error] Disposing session as kernel process died ExitCode: undefined, Reason: 
