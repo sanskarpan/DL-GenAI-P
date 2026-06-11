@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints/
+venv/
+messy_mashup/genres_stems/
+messy_mashup/mashups/
+messy_mashup/ESC-50-master/
+wandb/
+*.egg-info/
