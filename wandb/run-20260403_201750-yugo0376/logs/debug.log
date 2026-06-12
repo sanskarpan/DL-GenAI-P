@@ -1,0 +1,21 @@
+2026-04-03 20:17:50,024 INFO    MainThread:17623 [wandb_init.py:setup_run_log_directory():717] Logging user logs to /Users/sanskar/dev/DL-GenAI-P/wandb/run-20260403_201750-yugo0376/logs/debug.log
+2026-04-03 20:17:50,024 INFO    MainThread:17623 [wandb_init.py:setup_run_log_directory():718] Logging internal logs to /Users/sanskar/dev/DL-GenAI-P/wandb/run-20260403_201750-yugo0376/logs/debug-internal.log
+2026-04-03 20:17:50,024 INFO    MainThread:17623 [wandb_init.py:init():844] calling init triggers
+2026-04-03 20:17:50,024 INFO    MainThread:17623 [wandb_init.py:init():849] wandb.init called with sweep_config: {}
+config: {'model': 'AST (ASTForAudioClassification)', 'pretrained': 'MIT/ast-finetuned-audioset-10-10-0.4593', 'total_params': 86200000, 'trainable_params': 28400000, 'frozen_layers': '0-7', 'unfrozen_layers': '8-11 + classifier', 'encoder_lr': 5e-05, 'head_lr': 0.001, 'epochs': 12, 'batch_size': 8, 'grad_accum': 2, 'effective_batch': 16, 'scheduler': 'CosineAnnealingLR', 'loss': 'LabelSmoothingCrossEntropy(eps=0.1)', 'samples_per_epoch': 4000, 'val_samples': 1500, 'input_sr': 16000, 'amp': True, 'online_augmentation': True, '_wandb': {}}
+2026-04-03 20:17:50,024 INFO    MainThread:17623 [wandb_init.py:init():892] starting backend
+2026-04-03 20:17:50,024 INFO    MainThread:17623 [wandb_init.py:init():895] sending inform_init request
+2026-04-03 20:17:50,026 INFO    MainThread:17623 [wandb_init.py:init():903] backend started and connected
+2026-04-03 20:17:50,027 INFO    MainThread:17623 [wandb_init.py:init():973] updated telemetry
+2026-04-03 20:17:50,028 INFO    MainThread:17623 [wandb_init.py:init():997] communicating run to backend with 90.0 second timeout
+2026-04-03 20:17:50,909 INFO    MainThread:17623 [wandb_init.py:init():1042] starting run threads in backend
+2026-04-03 20:17:50,966 INFO    MainThread:17623 [wandb_run.py:_console_start():2524] atexit reg
+2026-04-03 20:17:50,966 INFO    MainThread:17623 [wandb_run.py:_redirect():2373] redirect: wrap_raw
+2026-04-03 20:17:50,966 INFO    MainThread:17623 [wandb_run.py:_redirect():2442] Wrapping output streams.
+2026-04-03 20:17:50,966 INFO    MainThread:17623 [wandb_run.py:_redirect():2465] Redirects installed.
+2026-04-03 20:17:50,966 INFO    MainThread:17623 [wandb_init.py:init():1082] run started, returning control to user process
+2026-04-03 20:17:50,968 INFO    MainThread:17623 [wandb_run.py:_finish():2291] finishing run 23f3003478-iit-madras/23f3003478-t12026/yugo0376
+2026-04-03 20:17:50,968 INFO    MainThread:17623 [wandb_run.py:_atexit_cleanup():2490] got exitcode: 0
+2026-04-03 20:17:50,968 INFO    MainThread:17623 [wandb_run.py:_restore():2472] restore
+2026-04-03 20:17:50,968 INFO    MainThread:17623 [wandb_run.py:_restore():2478] restore done
+2026-04-03 20:17:52,824 INFO    MainThread:17623 [wandb_run.py:_footer_sync_info():3868] logging synced files

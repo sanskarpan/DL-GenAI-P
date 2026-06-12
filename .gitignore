@@ -1,10 +1,22 @@
+# Python
 __pycache__/
-*.pyc
-.DS_Store
-.ipynb_checkpoints/
-venv/
-messy_mashup/genres_stems/
-messy_mashup/mashups/
-messy_mashup/ESC-50-master/
-wandb/
+*.py[cod]
 *.egg-info/
+.eggs/
+venv/
+.venv/
+env/
+
+# Data & model artifacts (archived as LFS zips)
+outputs/
+messy_mashup/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Weights & Biases (local cache only)
+# wandb/ — kept intentionally for experiment tracking
