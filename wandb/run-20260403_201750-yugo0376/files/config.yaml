@@ -1,0 +1,69 @@
+_wandb:
+    value:
+        cli_version: 0.25.1
+        e:
+            1wgwem4odexcab6nr6l9slbo3390pn0i:
+                codePath: scripts/fix_wandb_runs.py
+                codePathLocal: scripts/fix_wandb_runs.py
+                email: 23f3003478@ds.study.iitm.ac.in
+                executable: /Users/sanskar/dev/DL-GenAI-P/venv/bin/python3
+                host: Sanskars-MacBook-Pro.local
+                os: macOS-26.0.1-arm64-arm-64bit
+                program: /Users/sanskar/dev/DL-GenAI-P/scripts/fix_wandb_runs.py
+                python: CPython 3.12.12
+                root: /Users/sanskar/dev/DL-GenAI-P
+                startedAt: "2026-04-03T14:47:50.020248Z"
+                writerId: 1wgwem4odexcab6nr6l9slbo3390pn0i
+        m: []
+        python_version: 3.12.12
+        t:
+            "3":
+                - 2
+                - 13
+                - 16
+            "4": 3.12.12
+            "5": 0.25.1
+            "8":
+                - 2
+            "10":
+                - 20
+            "12": 0.25.1
+            "13": darwin-arm64
+amp:
+    value: true
+batch_size:
+    value: 8
+effective_batch:
+    value: 16
+encoder_lr:
+    value: 5e-05
+epochs:
+    value: 12
+frozen_layers:
+    value: 0-7
+grad_accum:
+    value: 2
+head_lr:
+    value: 0.001
+input_sr:
+    value: 16000
+loss:
+    value: LabelSmoothingCrossEntropy(eps=0.1)
+model:
+    value: AST (ASTForAudioClassification)
+online_augmentation:
+    value: true
+pretrained:
+    value: MIT/ast-finetuned-audioset-10-10-0.4593
+samples_per_epoch:
+    value: 4000
+scheduler:
+    value: CosineAnnealingLR
+total_params:
+    value: 86200000
+trainable_params:
+    value: 28400000
+unfrozen_layers:
+    value: 8-11 + classifier
+val_samples:
+    value: 1500

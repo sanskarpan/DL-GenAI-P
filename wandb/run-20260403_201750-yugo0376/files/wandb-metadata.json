@@ -1,0 +1,13 @@
+{
+  "os": "macOS-26.0.1-arm64-arm-64bit",
+  "python": "CPython 3.12.12",
+  "startedAt": "2026-04-03T14:47:50.020248Z",
+  "program": "/Users/sanskar/dev/DL-GenAI-P/scripts/fix_wandb_runs.py",
+  "codePath": "scripts/fix_wandb_runs.py",
+  "codePathLocal": "scripts/fix_wandb_runs.py",
+  "email": "23f3003478@ds.study.iitm.ac.in",
+  "root": "/Users/sanskar/dev/DL-GenAI-P",
+  "host": "Sanskars-MacBook-Pro.local",
+  "executable": "/Users/sanskar/dev/DL-GenAI-P/venv/bin/python3",
+  "writerId": "1wgwem4odexcab6nr6l9slbo3390pn0i"
+}

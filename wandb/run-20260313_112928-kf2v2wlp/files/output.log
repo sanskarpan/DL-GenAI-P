@@ -1,0 +1,12 @@
+Model params: 422,986
+Device: cpu
+Epoch   1/10 | Train Loss: 1.2930 F1: 0.1923 | Val Loss: 0.9066 F1: 0.8266 | LR: 2.93e-04 | 72.4s
+Epoch   2/10 | Train Loss: 0.9427 F1: 0.7880 | Val Loss: 0.8087 F1: 0.8845 | LR: 2.71e-04 | 47.9s
+Epoch   3/10 | Train Loss: 0.8992 F1: 0.8309 | Val Loss: 0.7966 F1: 0.8998 | LR: 2.38e-04 | 58.1s
+Epoch   4/10 | Train Loss: 0.8695 F1: 0.8439 | Val Loss: 0.7647 F1: 0.9099 | LR: 1.97e-04 | 48.3s
+Epoch   5/10 | Train Loss: 0.8751 F1: 0.8390 | Val Loss: 0.7335 F1: 0.9150 | LR: 1.50e-04 | 55.0s
+Epoch   6/10 | Train Loss: 0.8576 F1: 0.8460 | Val Loss: 0.7274 F1: 0.9200 | LR: 1.04e-04 | 61.6s
+Epoch   7/10 | Train Loss: 0.8566 F1: 0.8420 | Val Loss: 0.7657 F1: 0.8842 | LR: 6.26e-05 | 75.8s
+Epoch   8/10 | Train Loss: 0.8309 F1: 0.8630 | Val Loss: 0.7279 F1: 0.9198 | LR: 2.96e-05 | 74.9s
+Epoch   9/10 | Train Loss: 0.8288 F1: 0.8530 | Val Loss: 0.7413 F1: 0.9096 | LR: 8.32e-06 | 61.1s
+Epoch  10/10 | Train Loss: 0.7937 F1: 0.8890 | Val Loss: 0.7144 F1: 0.9249 | LR: 1.00e-06 | 51.7s

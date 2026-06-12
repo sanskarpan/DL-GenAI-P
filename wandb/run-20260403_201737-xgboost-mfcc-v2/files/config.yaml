@@ -1,0 +1,48 @@
+_wandb:
+    value:
+        cli_version: 0.25.1
+        e:
+            hdwegm09hdsesi87qg1o2c5aw5txicxl:
+                codePath: scripts/fix_wandb_runs.py
+                codePathLocal: scripts/fix_wandb_runs.py
+                email: 23f3003478@ds.study.iitm.ac.in
+                executable: /Users/sanskar/dev/DL-GenAI-P/venv/bin/python3
+                host: Sanskars-MacBook-Pro.local
+                os: macOS-26.0.1-arm64-arm-64bit
+                program: /Users/sanskar/dev/DL-GenAI-P/scripts/fix_wandb_runs.py
+                python: CPython 3.12.12
+                root: /Users/sanskar/dev/DL-GenAI-P
+                startedAt: "2026-04-03T14:47:37.829109Z"
+                writerId: hdwegm09hdsesi87qg1o2c5aw5txicxl
+        m: []
+        python_version: 3.12.12
+        t:
+            "3":
+                - 2
+                - 13
+                - 14
+                - 16
+            "4": 3.12.12
+            "5": 0.25.1
+            "8":
+                - 2
+            "10":
+                - 20
+            "12": 0.25.1
+            "13": darwin-arm64
+feature_dim:
+    value: 288
+features:
+    value: MFCC+Chroma+Spectral (288-dim)
+learning_rate:
+    value: 0.1
+max_depth:
+    value: 6
+model:
+    value: XGBoost
+n_estimators:
+    value: 200
+n_train:
+    value: 2000
+n_val:
+    value: 500

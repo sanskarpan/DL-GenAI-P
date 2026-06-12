@@ -1,0 +1,50 @@
+_wandb:
+    value:
+        cli_version: 0.25.1
+        e:
+            dbrdokopos6tqcgbil0iu80ai4l0h0wn:
+                codePath: scripts/fix_wandb_runs.py
+                codePathLocal: scripts/fix_wandb_runs.py
+                email: 23f3003478@ds.study.iitm.ac.in
+                executable: /Users/sanskar/dev/DL-GenAI-P/venv/bin/python3
+                host: Sanskars-MacBook-Pro.local
+                os: macOS-26.0.1-arm64-arm-64bit
+                program: /Users/sanskar/dev/DL-GenAI-P/scripts/fix_wandb_runs.py
+                python: CPython 3.12.12
+                root: /Users/sanskar/dev/DL-GenAI-P
+                startedAt: "2026-04-03T14:47:53.469029Z"
+                writerId: dbrdokopos6tqcgbil0iu80ai4l0h0wn
+        m: []
+        python_version: 3.12.12
+        t:
+            "3":
+                - 2
+                - 13
+                - 14
+                - 16
+            "4": 3.12.12
+            "5": 0.25.1
+            "8":
+                - 2
+            "10":
+                - 20
+            "12": 0.25.1
+            "13": darwin-arm64
+ast_base:
+    value: MIT/ast-finetuned-audioset-10-10-0.4593
+embedding_dim:
+    value: 768
+frozen_ast:
+    value: true
+learning_rate:
+    value: 0.1
+max_depth:
+    value: 6
+model:
+    value: AST Embeddings + XGBoost
+n_estimators:
+    value: 200
+n_train:
+    value: 2000
+n_val:
+    value: 500
